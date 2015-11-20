@@ -22,16 +22,10 @@ gem 'jbuilder', '~> 1.2'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'sass', '3.2.19'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'bower-rails'
 
 group :development, :test do
+  gem 'rspec'
   gem 'rspec-rails', '~> 2.0'
   gem 'factory_girl_rails', "4.0"
   gem 'capybara'
